@@ -1,0 +1,396 @@
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title ShoeX
+    link(rel='stylesheet', href='../css/bootstrap.min.css')
+    link(rel='stylesheet', href='../css/mdb.min.css')
+    link(rel='stylesheet', href='../css/owl.carousel.min.css')
+    link(rel='stylesheet', href='../css/owl.theme.default.min.css')
+    link(rel='stylesheet', href='../css/materialdesignicons.min.css')
+    link(rel="stylesheet", href="../css/sweetalert2.min.css")
+    link(rel='stylesheet', href='../css/layout.css')
+    link(rel='shortcut icon', href='../img/favicon.png')
+  body
+    .go-top(title='Xem sản phẩm')
+      i.mdi.mdi-shoe-formal
+
+    .modal.quickview.fade.product-modal-1.show(tabindex='-1', role='dialog', aria-labelledby='exampleModalCenterTitle')
+      .modal-dialog.modal-lg.modal-dialog-centered(role='document')
+        .modal-content
+          .modal-header
+            h5#exampleModalCenterTitle.modal-title Chi tiết sản phẩm
+            button.close(type='button', data-dismiss='modal', aria-label='Close')
+              span(aria-hidden='true') ×
+          .modal-body
+            .row
+              .col-lg-6
+                .modal-img
+                  .main-image
+                    img.img-main(src='../img/p-6.jpg')
+                  .xzoom-thumbs
+                    .owl-carousel.xzoom-carousel.owl-theme
+                      .item
+                        img(src='../img/p-6.jpg')
+                      .item
+                        img(src='../img/p-1.jpg')
+                      .item
+                        img(src='../img/p-2.jpg')
+                      .item
+                        img(src='../img/p-3.jpg')
+                      .item
+                        img(src='../img/p-4.jpg')
+                      .item
+                        img(src='../img/p-5.jpg')
+              .col-lg-6
+                .quickview-detail
+                  h3 Walnut
+                  h4.price-product
+                    | 1.543.000 đ
+                    span 1.929.000 đ 
+                  h5
+                    | This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                  .quickview-detail-1
+                    .quantity
+                      span Số lượng: 
+                      input(type='number', value='1', min='1')
+                    .size
+                      span Size:
+                      select    
+                        option(value="") US 6.5 | EUR 39
+                        option(value="")  US 6.5 | 39
+                        option(value="")  US 6.5 | 39
+                        option(value="")  US 6.5 | 39
+                        option(value="")  US 6.5 | 39
+          
+                  .quickview-detail-3
+                    span Thông tin đặt hàng:
+                    input(type="text" placeholder="Họ tên")
+                    input(type="text" placeholder="Email")
+                    input(type="text" placeholder="Số điện thoại")
+                    input(type="text" placeholder="Địa chỉ nhận hàng")
+                  
+                  button.order-submit Đặt hàng ngay
+                  
+          .modal-footer
+            button.btn.btn-light(type='button', data-dismiss='modal') Đóng
+
+    header
+      img(src='../img/logo.png')
+      .menu
+        ul
+          li
+            a(href='#our-product') Bí quyết
+          li
+            a(href='#why') Tại sao nên chọn?
+          li
+            a(href='#product') Sản phẩm
+          li
+            a(href='#order') Liên hệ đặt mua
+          li
+            a(href='#feedback') Feedback
+          
+          
+
+    article
+      section.slider
+        .owl-carousel.slider-carousel.owl-theme
+          .item
+            img(src='./../img/bg.jpg')
+          .item
+            img(src='./../img/bg-2.jpg')
+          
+        .slider-text
+          h1(style="font-weight: 300") This is
+          img(src='../img/logo.png')
+          h1(style="font-weight: 500") Cloud 9 All day
+          h4(style="font-weight: 500") Comfortable   |   Fashionable   |   Adaptable
+          h4(style="font-weight: 300") Thoải Mái  |  Thời Thượng  |  Thích Nghi
+
+      section#our-product.our-product
+        .container
+          .title-page
+            h2  
+              | Bí Quyết
+              span gì đó
+
+          .owl-carousel.our-product-carousel.owl-theme
+            .item
+              .box-our-product
+                .box-our-product-img
+                  img(src='../img/our-product-1.png')
+                .box-our-product-detail
+                  img( src='../img/our-product-icon-1.png')
+                  .box-our-product-title
+                    h1 insole
+                    h4 ÊM ÁI, THÔNG thoáng
+                  .box-our-product-detail-desc
+                    p Thiết kế hình học thông minh ôm dáng chân tạo cảm giác thoải mái, vững chãi trong quá trình di chuyển.
+                    p Kết hợp hai loại chất liệu vụn gỗ cùng EVA giúp tăng cường khả năng thấm hút, tạo sự khô thoáng cho giày. Bề mặt insole được phủ bằng vải với hệ thống lưới cùng độ ma sát vừa phải giúp tạo độ bám cho bàn chân.
+
+            .item
+              .box-our-product
+                .box-our-product-img
+                  img(src='../img/our-product-1.png')
+                .box-our-product-detail
+                  img(src='../img/our-product-icon-1.png')
+                  .box-our-product-title
+                    h1 insole
+                    h4 ÊM ÁI, THÔNG thoáng
+                  .box-our-product-detail-desc
+                    p Thiết kế hình học thông minh ôm dáng chân tạo cảm giác thoải mái, vững chãi trong quá trình di chuyển.
+                    p Kết hợp hai loại chất liệu vụn gỗ cùng EVA giúp tăng cường khả năng thấm hút, tạo sự khô thoáng cho giày. Bề mặt insole được phủ bằng vải với hệ thống lưới cùng độ ma sát vừa phải giúp tạo độ bám cho bàn chân.
+            
+            .item
+              .box-our-product
+                .box-our-product-img
+                  img(src='../img/our-product-1.png')
+                .box-our-product-detail
+                  img(src='../img/our-product-icon-1.png')
+                  .box-our-product-title
+                    h1 insole
+                    h4 ÊM ÁI, THÔNG thoáng
+                  .box-our-product-detail-desc
+                    p Thiết kế hình học thông minh ôm dáng chân tạo cảm giác thoải mái, vững chãi trong quá trình di chuyển.
+                    p Kết hợp hai loại chất liệu vụn gỗ cùng EVA giúp tăng cường khả năng thấm hút, tạo sự khô thoáng cho giày. Bề mặt insole được phủ bằng vải với hệ thống lưới cùng độ ma sát vừa phải giúp tạo độ bám cho bàn chân.
+            
+            .item
+              .box-our-product
+                .box-our-product-img
+                  img(src='../img/our-product-1.png')
+                .box-our-product-detail
+                  img(src='../img/our-product-icon-1.png')
+                  .box-our-product-title
+                    h1 insole
+                    h4 ÊM ÁI, THÔNG thoáng
+                  .box-our-product-detail-desc
+                    p Thiết kế hình học thông minh ôm dáng chân tạo cảm giác thoải mái, vững chãi trong quá trình di chuyển.
+                    p Kết hợp hai loại chất liệu vụn gỗ cùng EVA giúp tăng cường khả năng thấm hút, tạo sự khô thoáng cho giày. Bề mặt insole được phủ bằng vải với hệ thống lưới cùng độ ma sát vừa phải giúp tạo độ bám cho bàn chân.
+            
+            .item
+              .box-our-product
+                .box-our-product-img
+                  img(src='../img/our-product-1.png')
+                .box-our-product-detail
+                  img(src='../img/our-product-icon-1.png')
+                  .box-our-product-title
+                    h1 insole
+                    h4 ÊM ÁI, THÔNG thoáng
+                  .box-our-product-detail-desc
+                    p Thiết kế hình học thông minh ôm dáng chân tạo cảm giác thoải mái, vững chãi trong quá trình di chuyển.
+                    p Kết hợp hai loại chất liệu vụn gỗ cùng EVA giúp tăng cường khả năng thấm hút, tạo sự khô thoáng cho giày. Bề mặt insole được phủ bằng vải với hệ thống lưới cùng độ ma sát vừa phải giúp tạo độ bám cho bàn chân.
+
+      section#why.why
+        .left
+          .left-child
+            h1 INNOVATION FOR a GENTLEMEN on THE go
+            h2 CẢI TIẾN VƯỢT TRỘI,
+            h2 BẮT KỊP PHONG CÁCH THÀNH CÔNG
+            h4 Cảm nhận sự thoải mái nhờ công nghệ đột phá, giữ vững tinh thần trang trọng qua từng đường nét thủ công, hoàn thiện vẻ ngoài đa phong cách.
+
+        .right
+          img(src='../img/image-2.png')
+           
+      section#product.product
+        .container
+          .title-page
+            h1 WINGTIP OXFORD
+          .product-zone
+            .box-product
+              .box-product-img
+                img(src='../img/p-6.jpg')
+              .box-product-detail
+                h3 Walnut
+                h4
+                  span 1.929.000 đ
+                  | 1.543.000 đ
+              .box-product-order
+                a(data-toggle="modal" data-target=".product-modal-1")
+                  | Mua ngay
+                  i.mdi.mdi-shopping
+            
+            .box-product
+              .box-product-img
+                img(src='../img/p-6.jpg')
+              .box-product-detail
+                h3 Walnut
+                h4
+                  span 1.929.000 đ
+                  | 1.543.000 đ
+              .box-product-order
+                a(data-toggle="modal" data-target=".product-modal-1")
+                  | Mua ngay
+                  i.mdi.mdi-shopping
+            
+            .box-product
+              .box-product-img
+                img(src='../img/p-6.jpg')
+              .box-product-detail
+                h3 Walnut
+                h4
+                  span 1.929.000 đ
+                  | 1.543.000 đ
+              .box-product-order
+                a(data-toggle="modal" data-target=".product-modal-1")
+                  | Mua ngay
+                  i.mdi.mdi-shopping
+            
+            .box-product
+              .box-product-img
+                img(src='../img/p-6.jpg')
+              .box-product-detail
+                h3 Walnut
+                h4
+                  span 1.929.000 đ
+                  | 1.543.000 đ
+              .box-product-order
+                a(data-toggle="modal" data-target=".product-modal-1")
+                  | Mua ngay
+                  i.mdi.mdi-shopping
+            
+            .box-product
+              .box-product-img
+                img(src='../img/p-6.jpg')
+              .box-product-detail
+                h3 Walnut
+                h4
+                  span 1.929.000 đ
+                  | 1.543.000 đ
+              .box-product-order
+                a(data-toggle="modal" data-target=".product-modal-1")
+                  | Mua ngay
+                  i.mdi.mdi-shopping
+            
+            .box-product
+              .box-product-img
+                img(src='../img/p-6.jpg')
+              .box-product-detail
+                h3 Walnut
+                h4
+                  span 1.929.000 đ
+                  | 1.543.000 đ
+              .box-product-order
+                a(data-toggle="modal" data-target=".product-modal-1")
+                  | Mua ngay
+                  i.mdi.mdi-shopping
+            
+            .box-product
+              .box-product-img
+                img(src='../img/p-6.jpg')
+              .box-product-detail
+                h3 Walnut
+                h4
+                  span 1.929.000 đ
+                  | 1.543.000 đ
+              .box-product-order
+                a(data-toggle="modal" data-target=".product-modal-1")
+                  | Mua ngay
+                  i.mdi.mdi-shopping
+            
+            .box-product
+              .box-product-img
+                img(src='../img/p-6.jpg')
+              .box-product-detail
+                h3 Walnut
+                h4
+                  span 1.929.000 đ
+                  | 1.543.000 đ
+              .box-product-order
+                a(data-toggle="modal" data-target=".product-modal-1")
+                  | Mua ngay
+                  i.mdi.mdi-shopping
+            
+            .box-product
+              .box-product-img
+                img(src='../img/p-6.jpg')
+              .box-product-detail
+                h3 Walnut
+                h4
+                  span 1.929.000 đ
+                  | 1.543.000 đ
+              .box-product-order
+                a(data-toggle="modal" data-target=".product-modal-1")
+                  | Mua ngay
+                  i.mdi.mdi-shopping
+
+      section#order.order
+        .container
+          .title
+            h2 Liên hệ với chúng tôi
+            h5 Nếu bạn muốn đặt mua gì đó
+          form(action="")
+            input(type="text", placeholder="Họ tên")
+            input(type="text", placeholder="Số điện thoại")
+            input(type="email", placeholder="Email")
+            textarea(placeholder="Nội dung")
+            button(type="submit") Gửi liên hệ
+
+      section#feedback.feedback.our-product
+        .container
+          .title-page
+            h2  
+              span our
+              | feedback
+
+          .owl-carousel.our-product-carousel.owl-theme
+            .item
+              .box-feedback
+                .box-feedback-img
+                  img(src='../img/feedback-1.png')
+                .box-feedback-detail
+                  h1 Shark Hưng
+                  h4 Lorem ipsum
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id porta nibh venenatis cras sed felis eget velit aliquet. Mollis nunc sed id semper. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Quis varius quam quisque id diam vel. 
+            
+            .item
+              .box-feedback
+                .box-feedback-img
+                  img(src='../img/feedback-1.png')
+                .box-feedback-detail
+                  h1 Shark Hưng
+                  h4 Lorem ipsum
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id porta nibh venenatis cras sed felis eget velit aliquet. Mollis nunc sed id semper. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Quis varius quam quisque id diam vel. 
+            
+            .item
+              .box-feedback
+                .box-feedback-img
+                  img(src='../img/feedback-1.png')
+                .box-feedback-detail
+                  h1 Shark Hưng
+                  h4 Lorem ipsum
+                  p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id porta nibh venenatis cras sed felis eget velit aliquet. Mollis nunc sed id semper. Donec ac odio tempor orci dapibus ultrices in iaculis nunc. Quis varius quam quisque id diam vel. 
+    
+    footer
+      section.footer
+        .footer-line
+          img(src='../img/footer-img.png')
+        .container
+          .logo
+            img( src='../img/logo.png')
+          .row
+            .col-lg-4.col-sm-6
+              .store
+                h4 Hệ thống cửa hàng ShoeX
+                p Store 1:
+                h5 56 Lê Thánh Tôn, Quận 1, TP.HCM
+                p Store 2:
+                h5 119 Lê Văn Sỹ, Quận Phú Nhuận, TP.HCM
+            .col-lg-4.col-sm-6
+              .hotline
+                p hotline
+                h5 +84 90 39 48 984 
+                h5 (DM/WhatsApp/Viber/Zalo)
+                h2 shoex.net
+            .col-lg-4.col-sm-12
+              .right
+                img(src='../img/footer-right.png')
+            
+
+    script(src='../js/jquery-3.3.1.min.js')
+    script(src='../js/mdb.min.js')
+    script(src='../js/bootstrap.min.js')
+    script(src='../js/owl.carousel.min.js')
+    script(src='../js/jquery.zoom.min.js')
+    script(src='../js/sweetalert2.min.js')
+    script(src='../js/layout.js')
