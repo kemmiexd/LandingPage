@@ -62,7 +62,7 @@ body a {
   transition: 0.3s;
 }
 body a:hover, body a:focus {
-  color: #17305f;
+  color: #ea7dc7;
 }
 body ul {
   margin: 0;
@@ -87,7 +87,7 @@ body .go-top {
   position: fixed;
   bottom: 15px;
   right: 15px;
-  background: #17305f;
+  background: #ea7dc7;
   -webkit-transition: 0.3s;
   transition: 0.3s;
   z-index: 1000;
@@ -96,8 +96,8 @@ body .go-top {
   height: 40px;
   text-align: center;
   border-radius: 50%;
-  -webkit-box-shadow: 0 0 10px rgba(23, 48, 95, 0.5);
-  box-shadow: 0 0 10px rgba(23, 48, 95, 0.5);
+  -webkit-box-shadow: 0 0 10px rgba(234, 125, 199, 0.5);
+  box-shadow: 0 0 10px rgba(234, 125, 199, 0.5);
   display: block;
 }
 body .go-top i {
@@ -108,8 +108,8 @@ body .go-top i {
   transition: 0.3s;
 }
 body .go-top:hover {
-  -webkit-box-shadow: 0 0 20px rgba(23, 48, 95, 0.8);
-  box-shadow: 0 0 20px rgba(23, 48, 95, 0.8);
+  -webkit-box-shadow: 0 0 20px rgba(234, 125, 199, 0.8);
+  box-shadow: 0 0 20px rgba(234, 125, 199, 0.8);
   width: 50px;
   height: 50px;
   bottom: 10px;
@@ -123,8 +123,8 @@ body button:focus {
 }
 body input:focus,
 body select:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(23, 48, 95, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(23, 48, 95, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(234, 125, 199, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(234, 125, 199, 0.5);
 }
 
 body .overlay-menu {
@@ -186,7 +186,7 @@ body .modal {
 .quickview .modal-content .modal-body input:focus, .quickview .modal-content .modal-body select:focus {
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-color: #17305f;
+  border-color: #ea7dc7;
 }
 .quickview .modal-content .modal-body select {
   width: 60px;
@@ -194,7 +194,7 @@ body .modal {
 .quickview .modal-content .modal-body a {
   cursor: pointer;
   padding: 10px 20px;
-  background: #17305f;
+  background: #ea7dc7;
   color: white;
   text-transform: uppercase;
   font-weight: bold;
@@ -212,7 +212,7 @@ body .modal {
   border: 1px solid transparent;
 }
 .quickview .modal-content .modal-body .xzoom-thumbs img.active {
-  border-color: #17305f;
+  border-color: #ea7dc7;
 }
 .quickview .modal-content .quickview-detail-1 {
   display: -webkit-box;
@@ -245,11 +245,11 @@ body .modal {
 }
 .quickview .modal-content .quickview-detail button {
   height: 40px;
-  background: #17305f;
+  background: #ea7dc7;
   color: white;
   width: 100%;
   text-align: center;
-  border: 2px solid #17305f;
+  border: 2px solid #ea7dc7;
   line-height: 37px;
   border-radius: 3px;
   cursor: pointer;
@@ -261,7 +261,7 @@ body .modal {
 }
 .quickview .modal-content .quickview-detail button:hover {
   background: none;
-  color: #17305f;
+  color: #ea7dc7;
 }
 
 .modal-img {
@@ -287,7 +287,7 @@ body .modal {
 }
 .modal-img .owl-theme .owl-nav button.owl-prev:hover,
 .modal-img .owl-theme .owl-nav button.owl-next:hover {
-  color: #17305f !important;
+  color: #ea7dc7 !important;
 }
 .modal-img .owl-theme .owl-nav button.owl-prev:focus,
 .modal-img .owl-theme .owl-nav button.owl-next:focus {
@@ -309,8 +309,8 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  height: 100px;
-  background: rgba(23, 48, 95, 0.7);
+  height: 70px;
+  background: rgba(234, 125, 199, 0.7);
   z-index: 1000;
   display: flex;
   justify-content: space-between;
@@ -327,7 +327,7 @@ header .menu ul li a {
   transition: 0.3s;
 }
 header .menu ul li a:hover, header .menu ul li a.active {
-  background: #17305f;
+  background: #ea7dc7;
   border-radius: 3px;
 }
 
@@ -389,8 +389,8 @@ header .menu ul li a:hover, header .menu ul li a.active {
   transition: 0.2s;
 }
 .slider .owl-theme .owl-nav.disabled + .owl-dots button.active span, .slider .owl-theme .owl-nav.disabled + .owl-dots button:hover span {
-  background: #17305f;
-  border-color: #17305f;
+  background: #ea7dc7;
+  border-color: #ea7dc7;
 }
 
 .title-page {
@@ -399,7 +399,7 @@ header .menu ul li a:hover, header .menu ul li a.active {
 }
 .title-page h1 {
   font-weight: bold;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.2em;
   font-size: 34px;
 }
 .title-page h1 span {
@@ -411,7 +411,7 @@ header .menu ul li a:hover, header .menu ul li a.active {
 .title-page h2 {
   font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 0.5em;
+  letter-spacing: 0.2em;
   color: #2e2e2e;
 }
 .title-page h2 span {
@@ -424,6 +424,7 @@ header .menu ul li a:hover, header .menu ul li a.active {
 }
 .product .title-page {
   color: #2e2e2e;
+  text-transform: uppercase;
 }
 .product .product-zone {
   display: flex;
@@ -440,9 +441,11 @@ header .menu ul li a:hover, header .menu ul li a.active {
 }
 .product .box-product-img {
   overflow: hidden;
+  border-radius: 10px;
 }
 .product .box-product-img img {
   transition: 0.3s;
+  border-radius: 10px;
 }
 .product .box-product-img img:hover {
   transform: scale(1.2);
@@ -487,8 +490,8 @@ header .menu ul li a:hover, header .menu ul li a.active {
 }
 .product .box-product-order a:hover {
   color: white;
-  background: #17305f;
-  border-color: #17305f;
+  background: #ea7dc7;
+  border-color: #ea7dc7;
 }
 
 .why {
@@ -511,7 +514,7 @@ header .menu ul li a:hover, header .menu ul li a.active {
   font-size: calc(10px + 1.8vw);
   font-weight: bold;
   text-transform: uppercase;
-  color: #17305f;
+  color: #ea7dc7;
   margin-bottom: 10px;
 }
 .why .left h2 {
@@ -591,7 +594,7 @@ header .menu ul li a:hover, header .menu ul li a.active {
   -webkit-transition: 0.3s;
   transition: 0.3s;
   color: white;
-  background: #17305f;
+  background: #ea7dc7;
   width: 40px;
   height: 40px;
   display: block;
@@ -624,8 +627,8 @@ header .menu ul li a:hover, header .menu ul li a.active {
   border: 2px solid white;
 }
 .our-product .owl-theme .owl-dots .owl-dot.active span, .our-product .owl-theme .owl-dots .owl-dot:hover span {
-  background: #17305f;
-  border-color: #17305f;
+  background: #ea7dc7;
+  border-color: #ea7dc7;
   width: 12px;
   height: 12px;
   -webkit-transform: none;
@@ -672,7 +675,7 @@ header .menu ul li a:hover, header .menu ul li a.active {
   flex-wrap: wrap;
   margin: 0 -15px;
 }
-.order input {
+.order input, .order select {
   width: calc(100% / 3 - 30px);
   margin: 15px;
   border: 0;
@@ -680,7 +683,7 @@ header .menu ul li a:hover, header .menu ul li a.active {
   padding-left: 10px;
   border-radius: 3px;
 }
-.order input:focus {
+.order input:focus, .order select:focus {
   box-shadow: none;
 }
 .order textarea {
@@ -695,7 +698,7 @@ header .menu ul li a:hover, header .menu ul li a.active {
 .order button {
   width: 160px;
   height: 50px;
-  background: #17305f;
+  background: #ea7dc7;
   color: white;
   border: 0;
   border-radius: 3px;
@@ -709,7 +712,7 @@ header .menu ul li a:hover, header .menu ul li a.active {
 }
 .order button:hover {
   background: white;
-  color: #17305f;
+  color: #ea7dc7;
 }
 
 .feedback .title-page h2 span {
@@ -739,7 +742,7 @@ header .menu ul li a:hover, header .menu ul li a.active {
 .feedback .box-feedback-detail h1 {
   font-weight: bold;
   letter-spacing: 0.3em;
-  color: #17305f;
+  color: #ea7dc7;
   text-transform: uppercase;
 }
 .feedback .box-feedback-detail h4 {
@@ -755,10 +758,10 @@ header .menu ul li a:hover, header .menu ul li a.active {
 
 .footer {
   background: #ebebeb;
-  padding-top: 10px;
+  padding-top: 30px;
   padding-bottom: 50px;
   position: relative;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 .footer .row {
   -webkit-box-align: center;
@@ -770,24 +773,6 @@ header .menu ul li a:hover, header .menu ul li a.active {
   bottom: 80%;
   width: 100%;
   z-index: 1;
-}
-.footer::before {
-  content: "";
-  width: 100%;
-  height: 100px;
-  top: -100px;
-  left: 0;
-  position: absolute;
-  background-image: url("../img/bg-footer.png");
-  background-size: cover;
-  background-position: center;
-}
-.footer .logo {
-  margin-bottom: 20px;
-  text-align: center;
-}
-.footer .logo img {
-  height: 40px;
 }
 .footer .store {
   color: #2e2e2e;
@@ -816,7 +801,7 @@ header .menu ul li a:hover, header .menu ul li a.active {
 }
 .footer .hotline h2 {
   font-weight: 600;
-  color: #17305f;
+  color: #ea7dc7;
   margin-top: 30px;
 }
 
@@ -972,6 +957,14 @@ header .menu ul li a:hover, header .menu ul li a.active {
     position: relative;
     height: initial;
   }
+
+  .order input, .order select {
+    width: calc(100% / 2 - 15px);
+    margin: 7.5px;
+  }
+  .order select {
+    margin: 7.5px;
+  }
 }
 @media (max-width: 575px) {
   .title-page {
@@ -1027,6 +1020,11 @@ header .menu ul li a:hover, header .menu ul li a.active {
     display: block;
     margin-right: 0;
     margin-bottom: 5px;
+  }
+
+  .order input, .order select, .order textarea {
+    width: 100%;
+    margin: 7.5px;
   }
 }
 

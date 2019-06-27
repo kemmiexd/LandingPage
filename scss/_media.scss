@@ -1,4 +1,4 @@
-$main_color: #17305f;
+$main_color: #ea7dc7;
 
 @mixin o1 {
   overflow: hidden;
@@ -222,6 +222,17 @@ $main_color: #17305f;
       height: initial;
     }
   }
+
+  .order {
+    input, select {
+      width: calc(100% / 2 - 15px);
+      margin: 7.5px;
+    }
+
+    select {
+      margin: 7.5px;
+    }
+  }
 }
 
 @media (max-width: 575px) {
@@ -288,6 +299,13 @@ $main_color: #17305f;
       display: block;
       margin-right: 0;
       margin-bottom: 5px;
+    }
+  }
+
+  .order {
+    input, select, textarea {
+      width: 100%;
+      margin: 7.5px;
     }
   }
 }
