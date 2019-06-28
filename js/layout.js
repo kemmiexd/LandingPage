@@ -121,5 +121,23 @@ $(document).ready(() => {
         currentLink.removeClass("active");
       }
     });
+  });
+  
+  // notification random
+  const randomTime = Math.floor((Math.random() * 10) + 1) * 1000 * 2
+  // random 1s -> 10s
+  
+  setInterval(() => {
+    const random = Math.floor(Math.random() * 10);
+
+    $('.box-noti').eq(random).addClass('active');
+
+    setTimeout(() => {
+      $('.box-noti.active').removeClass('active');
+    }, 5000)
+  }, randomTime);
+
+  $('.box-noti i').click(() => {
+    $('.box-noti').removeClass('active');
   })
 });

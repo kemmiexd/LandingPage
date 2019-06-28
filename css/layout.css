@@ -805,6 +805,49 @@ header .menu ul li a:hover, header .menu ul li a.active {
   margin-top: 30px;
 }
 
+.box-noti {
+  max-width: 320px;
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+  z-index: 1000;
+  display: flex;
+  padding: 10px;
+  transition: 0.3s;
+  transform: translateX(-150%);
+}
+.box-noti.active {
+  transform: none;
+}
+.box-noti img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.box-noti-detail {
+  width: calc(100% - 50px);
+  margin-left: 10px;
+}
+.box-noti-detail h5 {
+  margin-bottom: 2px;
+}
+.box-noti-detail h6 {
+  color: #999999;
+  font-style: italic;
+}
+.box-noti i {
+  position: absolute;
+  top: -2px;
+  right: 2px;
+  cursor: pointer;
+}
+.box-noti i:hover {
+  color: #ea7dc7;
+}
+
 @media (max-width: 1200px) {
   body {
     margin-left: 15px;
